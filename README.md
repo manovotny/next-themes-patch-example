@@ -1,0 +1,1 @@
+# next-themes-patch-example
