@@ -1,5 +1,10 @@
 lockfileVersion: 5.4
 
+patchedDependencies:
+  next-themes@0.2.1:
+    hash: hrebgjc7ny3b7zr6t6udvae27i
+    path: patches/next-themes@0.2.1.patch
+
 specifiers:
   '@headlessui/react': ^1.7.10
   '@next/font': 13.1.7-canary.7
@@ -26,7 +31,7 @@ dependencies:
   '@next/font': 13.1.7-canary.7
   clsx: 1.2.1
   next: 13.1.7-canary.7_biqbaboplfbrettd7655fr4n2y
-  next-themes: 0.2.1_w2vyq33tqzstry6wuj6tqp4mx4
+  next-themes: 0.2.1_hrebgjc7ny3b7zr6t6udvae27i_w2vyq33tqzstry6wuj6tqp4mx4
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
 
@@ -1102,7 +1107,7 @@ packages:
     engines: { node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1 }
     hasBin: true
 
-  /next-themes/0.2.1_w2vyq33tqzstry6wuj6tqp4mx4:
+  /next-themes/0.2.1_hrebgjc7ny3b7zr6t6udvae27i_w2vyq33tqzstry6wuj6tqp4mx4:
     resolution:
       {
         integrity: sha512-B+AKNfYNIzh0vqQQKqQItTS8evEouKD7H5Hj3kmuPERwddR2TxvDSFZuTj6T7Jfn1oyeUyJMydPl1Bkxkh0W7A==
@@ -1116,6 +1121,7 @@ packages:
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
     dev: false
+    patched: true
 
   /next/13.1.7-canary.7_biqbaboplfbrettd7655fr4n2y:
     resolution:
